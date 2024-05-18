@@ -1,3 +1,5 @@
+////////// Create An Array Of Objects, Each Representing A Person With Properties Like Name, Age, And Gender. Write A Function To Filter Out All Females And Then Map The Remaining People To An Array Of Names. Print The Final Result./////////////
+
 const persons = [
   {
     name: "Arafat",
@@ -35,6 +37,8 @@ const females = (items) => {
 // const female = females(persons);
 // console.log(female);
 
+/////////// Create An Array Of Objects Representing Books With Properties Like Title, Author, And Year. Write A Function That Takes The Array And Returns A New Array With Only The Book Titles. Print The Result./////////////
+
 const Books = [
   {
     title: "Life of a programmer",
@@ -66,6 +70,8 @@ const arrayOfTitle = (title) => {
 // const titleOfBooks = arrayOfTitle(Books);
 // console.log(titleOfBooks);
 
+/////////////// Write Three Functions: One To Square A Number, One To Double A Number, And One To Add 5 To A Number. Compose These Functions To Create A New Function That Squares A Number, Doubles The Result, And Then Adds 5./////////////
+
 const squire = (num) => {
   return num * num;
 };
@@ -83,4 +89,4 @@ const NumberNa = (num) => {
   return add;
 };
 
-console.log(NumberNa(5));
+// console.log(NumberNa(5));
