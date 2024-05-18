@@ -90,3 +90,23 @@ const NumberNa = (num) => {
 };
 
 // console.log(NumberNa(5));
+
+// Create An Array Of Objects Representing Cars With Properties Like Make, Model, And Year. Write A Function To Sort The Array Of Cars By The Year Of Manufacture In Ascending Order. Print The Sorted Array.//
+
+const carsArray = [
+  { make: "Toyota", model: "Camry", year: 2020 },
+  { make: "Honda", model: "Civic", year: 2018 },
+  { make: "Ford", model: "Mustang", year: 2021 },
+  { make: "Chevrolet", model: "Impala", year: 2019 },
+  { make: "BMW", model: "3 Series", year: 2022 },
+  { make: "Audi", model: "A4", year: 2017 },
+  { make: "Mercedes-Benz", model: "C-Class", year: 2021 },
+  { make: "Tesla", model: "Model 3", year: 2023 },
+];
+
+const AscendingCars = (cars) => {
+  const car = cars.sort((a, b) => a.year - b.year);
+  return car;
+};
+
+console.log(AscendingCars(carsArray));
